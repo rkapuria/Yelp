@@ -1,0 +1,294 @@
+[
+  {
+    "uri": "features/scenarios/yelp.feature",
+    "id": "as-a-yelp-user-i-should-be-able-to-search-for-restaurants",
+    "keyword": "Feature",
+    "name": "AS a Yelp user I should be able to search for restaurants",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "as-a-yelp-user-i-should-be-able-to-search-for-restaurants;verify-the-user-is-able-to-search-restaurants",
+        "keyword": "Scenario",
+        "name": "verify the user is able to search restaurants",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.10.1/lib/capybara/cucumber.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226092
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.10.1/lib/capybara/cucumber.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123279
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127099
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I visit yelp.com",
+            "line": 4,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3943466114
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 66851
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I select \"Restaurants\" from the search dropdown",
+            "line": 5,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4846264890
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 70031
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I click on Search button",
+            "line": 6,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84819321
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 94374
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I select \"Restaurants Pizza\" from the search dropdown",
+            "line": 7,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178154106
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 79805
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I Report search results",
+            "line": 8,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61476819
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 101302
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I apply filtering options",
+            "line": 9,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Unable to find css \".suggested-filters_price-filters [value*='Range2.4']\" (Capybara::ElementNotFound)\n./features/pages/yelp_page.rb:27:in `filter_pricey'\n./features/step_definition/yelp_steps.rb:22:in `/^I apply filtering options$/'\nfeatures/scenarios/yelp.feature:9:in `And I apply filtering options'",
+              "duration": 2027535588
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I Report search results",
+            "line": 10,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:15"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I report the star rating of each of the results in the first page",
+            "line": 11,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I click and expand the first result from the search results",
+            "line": 12,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I log address, phone, website details and the first 3 reviews for reporting purposes",
+            "line": 13,
+            "match": {
+              "location": "features/step_definition/yelp_steps.rb:35"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:26"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `quit' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:40:in `quit_driver'\n./features/support/hooks.rb:15:in `After'",
+              "duration": 301044
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.10.1/lib/capybara/cucumber.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193406056
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
