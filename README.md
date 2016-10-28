@@ -19,5 +19,4 @@ Execute
 
 7. Reports
 Yelp automation reports are created in following format
-
- github_report.html
+Yelp_report.html (view it in the browser)
