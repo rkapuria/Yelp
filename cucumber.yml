@@ -1,1 +1,1 @@
-default: --require features --no-source --color --format pretty --format html --out reports/github_report.html --format json --out reports/github_report.json
+default: --require features --color --format pretty --format html --out reports/yelp_report.html
