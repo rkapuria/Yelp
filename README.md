@@ -1,5 +1,5 @@
 
-1. Yelp Project
+1. GoodShop Project
 2. Programming Language
     - Ruby
 3. Gems
@@ -10,7 +10,7 @@ Other gems will be automatically installed using bundler (process mentioned in S
 5. Setup
 
 - git clone https://github.com/rohantesting/Yelp.git
-bundle install (this will install all dependencies for running the Yelp Project)
+bundle install (this will install all dependencies for running the GoodShop Project)
 Execute
 
 6. Commmands
